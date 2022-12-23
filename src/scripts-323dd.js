@@ -409,7 +409,7 @@ class Birme {
     this.file_counter = 0;
     this.selected_holder = null;
     this.mask_pattern = new Image();
-    this.mask_pattern.src = "birme_files/stripes-light.png";
+    this.mask_pattern.src = "src/stripes-light.png";
     this.masonry = new Masonry(".tiles-holder", {
       transitionDuration: 0,
     });
